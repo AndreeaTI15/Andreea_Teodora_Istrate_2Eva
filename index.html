@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="shortcut icon" href="img/arcade.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <td colspan="4" id="fondo_cabecera">
+                <div id="letra_cabecera">STREETFIGHTER</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tipografia_tabla">KEN
+                    <img src="img/ken.png" alt="ken">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">CHUN LI
+                    <img src="img/ChunLi.png" alt="chun_li">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">ZANGIEF
+                    <img src="img/Zangief.png" alt="zangief">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">DHALSIN
+                    <img src="img/Dhalsim.png" alt="dhalsin">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tipografia_tabla">RYU
+                    <img src="img/Ryu.png" alt="ryu">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">E HONDA
+                    <img src="img/EHonda.png" alt="honda">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">BLANKA
+                    <img src="img/Blanka.png" alt="blanka">
+                </div>
+            </td>
+            <td>
+                <di class="tipografia_tabla_guille"> GUILLE
+                    <img src="img/Guille.png" alt="guille">
+                    </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tipografia_tabla">T HAWK
+                    <img src="img/THawk.png" alt="t_hawk">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">FEILONG
+                    <img src="img/Feilong.png" alt="feilong">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">DEE JAY
+                    <img src="img/DeeJay.png" alt="dee_jay">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">CAMMY
+                    <img src="img/Cammy.png" alt="cammy">
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tipografia_tabla">BALROG
+                    <img src="img/Balrog.png" alt="balrog">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">VEGA
+                    <img src="img/Vega.png" alt="vega">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">SAGAT
+                    <img src="img/Sagat.png" alt="sagat">
+                </div>
+            </td>
+            <td>
+                <div class="tipografia_tabla">M BISON
+                    <img src="img/MBison.png" alt="m_bison">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+    <div id="formulario">
+        <form action="email@fp.es">
+            <fieldset class="espacio_formulario">
+                <legend class="encabezados_tabla">DATOS PERSONALES</legend>
+                <div class="texto_secundario_espacios">
+                    <label for="nombre">Nombre:</label>
+                </div>
+                <div>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="texto_secundario_espacios">
+                    <label for="nombre">Apellidos:</label>
+                </div>
+                <div>
+                    <input type="text" name="apellidos" id="apellidos">
+                </div>
+                <div class="texto_secundario_espacios">
+                    <label for="nombre">Dirección Postal:</label>
+                </div>
+                <div class="elementos">
+                    <input type="text" name="calle" id="direccion" placeholder="Calle">
+                    <input type="text" name="Nº" id="direccion" placeholder="Nº">
+                    <input type="text" name="Piso" id="direccion" placeholder="Piso">
+                    <input type="Codigo Postal" name="calle" id="direccion" placeholder="Codigo POstal">
+                    <input type="text" name="ciudad" id="direccion" placeholder="Ciudad">
+                </div>
+                <div class="texto_secundario_espacios">
+                    <label for="nombre">Nick</label>
+                </div>
+                <div>
+                    <input type="text" name="nick" id="nick">
+                </div>
+                <div class="texto_secundario_espacios">
+                    <label for="email">Correo Electrónico:</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email">
+                </div>
+            </fieldset>
+
+            <fieldset class="espacio_formulario">
+                <legend class="encabezados_tabla">SEXO USUARIO</legend>
+                <div class="texto_secundario"><input type="radio" name="sexo" value="Hombre">Hombre</div>
+                <div class="texto_secundario"><input type="radio" name="sexo" value="Mujer">Mujer</div>
+                <div class="texto_secundario"><input type="radio" name="sexo" value="PrefieroNoDecir">Prefiero No Decir
+                </div>
+            </fieldset>
+
+            <fieldset class="espacio_formulario">
+                <div class="texto_secundario">
+                    Fecha de nacimiento<input type="date" name="" id="">
+                </div>
+            </fieldset>
+
+            <fieldset class="espacio_formulario">
+                <legend class="encabezados_tabla">PERSONAJES</legend>
+                <div class="texto_secundario">
+                    Selecciona el personaje <select name="peronajes" id="personaje">
+                        <option value="1">Personaje</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <fieldset class="espacio_formulario">
+                <legend class="encabezados_tabla">COMENTARIOS</legend>
+                <textarea name="opinion" id="opinion" class="comentarios"></textarea>
+            </fieldset>
+
+            <div>
+                <input type="reset" value="Borrar" class="botones">
+                <input type="submit" value="Enviar" class="botones">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
