@@ -81,6 +81,7 @@ h2{
     margin-bottom: 15px;
 
 }
+
 .encabezados_tabla{
     font-family: Street;
     font-size: 14px;
@@ -106,6 +107,7 @@ h2{
 .elementos{
     display: inline-block;
 }
+
 .comentarios{
     box-sizing: content-box;
     width: 560px;
